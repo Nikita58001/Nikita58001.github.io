@@ -2,6 +2,10 @@
 <html xmlns="http://www.w3.org/1999/html">
 
 <head>
+    <script>
+        var can = document.getElementById("canvas1");
+        var ctx = can.getContext("2d");
+    </script>
     <meta charset="UTF-8">
     <title>my first HTML</title>
 </head>
@@ -271,5 +275,6 @@
     <svg width="500" height="500">
         <path d="M 0 0 l200 200 l200 0 Z" style="stroke: cyan; fill: none;" />
     </svg>
+    <canvas id="canvas1" width="200" height="100"></canvas>
 </body>
 </html>
