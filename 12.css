@@ -102,3 +102,6 @@ p.right {
 p.center {
     text-align: center;
 }
+p.justify {
+    text-align: justify;
+}
