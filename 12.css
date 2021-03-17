@@ -180,3 +180,9 @@ p.positive {
 p.negative {
     letter-spacing: -3.5px;
 }
+p.normali {
+    word-spacing: normal;
+}
+p.px {
+    word-spacing: 30px;
+}
