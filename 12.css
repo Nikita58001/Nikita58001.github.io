@@ -150,7 +150,7 @@ p.underline {
 p.line-through {
     text-decoration: line-through;
 }
-p {
+p.indent {
     text-indent: 60px;
 }
 h1.shadow {
