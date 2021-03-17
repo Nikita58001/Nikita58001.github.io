@@ -171,3 +171,9 @@ p.uppercase {
 p.lowercase {
     text-transform: lowercase;
 }
+p.normal {
+    letter-spacing: normal;
+}
+p.positive {
+    letter-spacing: 4px;
+}
