@@ -124,5 +124,5 @@ span.super {
     vertical-align: super;
 }
 span.pixel {
-    vertical-align: -10px;
+    vertical-align: +10px;
 }
