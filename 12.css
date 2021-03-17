@@ -192,3 +192,6 @@ p.positive2 {
 p.negative2 {
     word-spacing: -5px;
 }
+p {
+    white-space: nowrap;
+}
