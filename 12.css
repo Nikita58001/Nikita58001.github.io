@@ -153,3 +153,8 @@ p.line-through {
 p {
     text-indent: 60px;
 }
+h1 {
+    color: fuchsia;
+    font-size: 30px;
+    text-shadow: 5px 2px 4px grey;
+}
