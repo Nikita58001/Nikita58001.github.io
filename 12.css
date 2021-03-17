@@ -105,3 +105,12 @@ p.center {
 p.justify {
     text-align: justify;
 }
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}
