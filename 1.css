@@ -133,21 +133,12 @@ p.second1 {
     max-width: 100px;
 }
 body {
-    background-color: black;
+    background-color: black;background-image: url("44.gif");background-color: #e9e9e9;background-image: url("44.gif");background-repeat: no-repeat;background-attachment: fixed;
 }
 p {
     color: darkseagreen; text-shadow: 5px 2px 4px black; font-style: italic;
 }
-body {
-    background-image: url("44.gif");
-    background-color: #e9e9e9;
-}
 p.uro {
     padding: 30px;
     background-image: url("44.gif");
-}
-body {
-    background-image: url("44.gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
