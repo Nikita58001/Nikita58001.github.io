@@ -186,3 +186,9 @@ p.normali {
 p.px {
     word-spacing: 30px;
 }
+p.positive2 {
+    word-spacing: 20px;
+}
+p.negative2 {
+    word-spacing: -5px;
+}
