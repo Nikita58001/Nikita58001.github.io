@@ -77,3 +77,8 @@ p.outset {
 p.hidden {
     border-style: hidden;
 }
+div {
+    border: 5px solid green;
+    width: 90px;
+    height: 90px;
+}
