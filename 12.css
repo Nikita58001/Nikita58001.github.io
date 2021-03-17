@@ -162,3 +162,6 @@ h1 {
     font-size: 30px;
     text-shadow: rgba(0,0,255,1) -1px -2px 0.5em;
 }
+p.capitalize {
+    text-transform: capitalize;
+}
