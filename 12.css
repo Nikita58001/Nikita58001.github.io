@@ -45,3 +45,15 @@ body {
 }
 /* Если браузер не поддерживает шрифт Arial, то он пробует следующие шрифты (helvetica neue,затем helvetica).Если браузер
 не поддерживает не одни из них, то он попытается использовать sans-serif. Не забывайте использовать ковычки если имя шрифтасостоит более чем из одного слова*/
+p.small {
+    font-size: small;
+}
+p.medium {
+    font-size: medium;
+}
+p.large {
+    font-size: large;
+}
+p.xlarge {
+    font-size: x-large;
+}
