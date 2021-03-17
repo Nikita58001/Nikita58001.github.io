@@ -1,9 +1,9 @@
-h1.shadow {
+h1.center {
     color: blue;
     font-size: 30px;
     text-shadow: 5px 2px 4px black;
 }
-h1.shadow {
+h1.center {
     padding: 10px;
     border: 5px solid black;
 }
