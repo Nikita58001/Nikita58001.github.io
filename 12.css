@@ -135,3 +135,18 @@ span.pixel {
     display: table-cell;
     vertical-align: middle;
 }
+p.none {
+    text-decoration: none ;
+}
+p.inherit {
+    text-decoration: inherit;
+}
+p.overline {
+    text-decoration: overline;
+}
+p.underline {
+    text-decoration: underline;
+}
+p.line-through {
+    text-decoration: line-through;
+}
