@@ -6,4 +6,7 @@ p {
     color: aqua;
     font-size: 25px;
    }
-
+#intro {
+    color: red;
+    background-color: black;
+}
