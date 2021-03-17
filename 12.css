@@ -165,3 +165,9 @@ h1 {
 p.capitalize {
     text-transform: capitalize;
 }
+p.uppercase {
+    text-transform: uppercase;
+}
+p.lowercase {
+    text-transform: lowercase;
+}
