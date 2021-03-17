@@ -1,6 +1,6 @@
 p { /* Выбирает все пораграффы которые изменят цвет */
     color: aqua; <!-- Цвет текста --> 
-    background-color: black; /* Фон вокруг текста */
+    background-color: none; /* Фон вокруг текста */
 }   /* h1 { color: black} Цвет заголовка */
 p {
     color: aqua;
