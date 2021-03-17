@@ -57,3 +57,6 @@ p.large {
 p.xlarge {
     font-size: x-large;
 } /* Также размер шрифта можно писать в px и em, чтобы посчитать в em надо использовать формулу 1em=16 px */
+p.italic {
+    font-style: italic;
+}
