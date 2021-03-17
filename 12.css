@@ -93,3 +93,12 @@ h1 {
 p.example {
     color: rgb(255,0,0);
 }
+p.left {
+    text-align: left;
+}
+p.right {
+    text-align: right;
+}
+p.center {
+    text-align: center;
+}
