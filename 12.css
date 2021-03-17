@@ -87,3 +87,9 @@ p.small {
 p.example {
     color: green;
 }
+h1 {
+    color: darkmagenta;
+}
+p.example {
+    color: rgb(255,0,0);
+}
