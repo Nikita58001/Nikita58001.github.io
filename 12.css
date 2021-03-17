@@ -84,3 +84,6 @@ p.normal {
 p.small {
     font-variant: small-caps;
 }
+p.example {
+    color: green;
+}
