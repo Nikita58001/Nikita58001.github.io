@@ -154,7 +154,7 @@ p {
     text-indent: 60px;
 }
 h1.shadow {
-    color: fuchsia;
+    color: black;
     font-size: 30px;
     text-shadow: 5px 2px 4px grey;
 }
