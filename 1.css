@@ -95,3 +95,6 @@ p.second1 {
     border: 5px solid green;
     max-width: 100px;
 }
+body {
+    background-color: #ff6600;
+}
