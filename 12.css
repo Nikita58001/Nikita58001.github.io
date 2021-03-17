@@ -43,3 +43,5 @@ body {
     font-family: Arial, "helvetica neue",
     Helvetica, sans-serif;
 }
+/* Если браузер не поддерживает шрифт Arial, то он пробует следующие шрифты (helvetica neue,затем helvetica).Если браузер
+не поддерживает не одни из них, то он попытается использовать sans-serif */
