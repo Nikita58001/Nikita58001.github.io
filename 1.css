@@ -19,3 +19,6 @@ p.center {
     padding: 10px;
     border: 5px solid black;
 }
+p.center {
+    text-align: center;
+}
