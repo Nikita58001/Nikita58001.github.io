@@ -53,6 +53,9 @@ p.third {
 p.none {
     border-style: none;
 }
+p.double {
+    border-style: double;
+}
 p.dotted {
     border-style: dotted;
 }
