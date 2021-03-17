@@ -1,3 +1,40 @@
+/* Свойство background-repeat определяет, как будет повторяться фоновое изображение.Можно установить повторение рисунка по горизонтали,
+по вертикали,в обе стороны или чтобы он не повторялся вообще.Значение repeat-x будет повторять фоновое изображение только горизонтально
+body {
+   background-image: url("css_logo.png");
+   background-repeat: repeat-x;
+   } */
+/* При установке свойства background-repeat на inherit,оно будет принимать такое же значение,как и свойство для родителя элемента
+Например,мы установим фон элемента body,чтобы он повторялся только горизантально.Если мы установим значения свойства
+background-repeat какого нибудь параграфа что бы оно наследовалось,то оно будет равно значение свойства элемента body.
+
+body {
+   background-image: url("css_logo.png");
+   background-repeat: repeat-x;
+   }
+p {
+   background-image: url("css_logo.png");
+   background-repeat: inherit;
+   margin-top: 100px;
+   padding: 40px;
+   }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1.center {
     color: blue;
     font-size: 30px;
@@ -108,4 +145,9 @@ body {
 p.uro {
     padding: 30px;
     background-image: url("44.gif");
+}
+body {
+    background-image: url("43.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
