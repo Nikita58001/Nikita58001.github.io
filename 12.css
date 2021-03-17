@@ -148,5 +148,5 @@ p.underline {
     text-decoration: underline;
 }
 p.line-through {
-    text-decoration: line-through;
+    text-decoration: blink
 }
