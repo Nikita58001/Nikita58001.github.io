@@ -78,3 +78,9 @@ p.bold {
 p.bolder {
     font-weight: bolder;
 }
+p.normal {
+    font-variant: normal;
+}
+p.small {
+    font-variant: small-caps;
+}
