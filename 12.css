@@ -11,4 +11,8 @@ p {
     background-color: black;
 }
 .first {font-size: 40px;}
+#intro .first em {
+    color: pink;
+    background-color: gold;
+}
 
