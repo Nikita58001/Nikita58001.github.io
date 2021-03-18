@@ -148,3 +148,12 @@ p.uro {
     padding: 30px;
     background-image: url("44.gif");
 }
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+ul.circle {
+    list-style-type: circle;
+}
+ul.square {
+    list-style-type: square;
+}
