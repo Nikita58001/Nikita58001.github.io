@@ -56,8 +56,9 @@ none (по умолчанию) гарантирует что элемент не
  Элементы, которые следует за обтекаемым элементом будут протекать вокруг него.
  Чтобы избежать этого используйте свойство clear. Свойство clear устанавливает с какой стороны элемента запрещено его обтекание другими элементами. */
 /* Как обсуждадлось ранее каждый элемент на странице является блоком.Если высота блока не установлена то она будет расти пока не будет способна вместить необходимый контент
-
  */
+/* существуют четыре значения для свойства property: visible (Значение по умолчанию)scroll,hidden,auto значение scroll всегда добавлет полосу прокрутки */
+
 
 
 
@@ -212,4 +213,10 @@ img {
 }
 div.over {
     width: 150px; height: 150px; background-color: darkred; float: left; overflow: scroll;
+}
+.blue {
+    background-color: blue; margin-bottom: 15px; width: 120px; height: 120px; color: #fff;
+}
+.red {
+    background-color: red; position: relative; width: 120px; height: 120px; color: #fff; margin-top: -50px; margin-left: 50px;
 }
