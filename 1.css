@@ -207,7 +207,7 @@ p.link {
 img {
     float: left; width: 120px; margin-right: 10px;
 }
-p {
+p.float {
     width: 120px; float: left;
 }
 
