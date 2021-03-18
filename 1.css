@@ -187,7 +187,7 @@ table.fixed {
     table-layout: fixed;
 }
 a:hover {
-    color: red;
+    color: red; text-shadow: 5px 2px 4px purple;
 }
 a:link {
     text-decoration: none;
