@@ -57,7 +57,7 @@ a:active должно следовать после a:hover
 
 
 h1.center {
-    color: blue;
+    color: #002480;
     font-size: 30px;
     text-shadow: 5px 2px 4px black;
 }
@@ -154,10 +154,10 @@ p.second1 {
     max-width: 100px;
 }
 body {
-    background-color: greenyellow;background-image: url("44.gif");
+    background-color: greenyellow;background-image: url("40.jpg");
 }
 p {
-    color: darkseagreen; text-shadow: 5px 2px 4px black; font-style: italic;
+    color: ghostwhite; text-shadow: 5px 2px 4px black; font-style: italic;
 }
 p.uro {
     padding: 30px;
