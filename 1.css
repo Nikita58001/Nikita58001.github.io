@@ -211,5 +211,5 @@ img {
     float: right; width: 120px; margin-right: 10px;
 }
 div.over {
-    width: 150px; height: 150px; background-color: darkred; float: left;
+    width: 150px; height: 150px; background-color: darkred; float: left; overflow: scroll;
 }
