@@ -19,7 +19,13 @@ p {
    padding: 40px;
    }
  */
+/* Css Свойства list позволяет нам устанавливать различные списки маркеров.В HTML существуют два типа списков: unordered lists
+(неупорядоченные списки) (<ul>) - элементы списка обозначаются маркерами
+ordered lists (упорядоченные списки) (<ol>) - элементы списка обозначаются числами,или буквами
+В css , списки могут быть стилизованны дальше, а изображения могут использоваться в качестве элемнтов списка
+Одним из способов является использование свойства list-style-type, которое может быть установленно на circle,square,decimal,disc,lower-alpha,и т.д
 
+ */
 
 
 
@@ -133,7 +139,7 @@ p.second1 {
     max-width: 100px;
 }
 body {
-    background-color: black;background-image: url("44.gif");
+    background-color: black;
 }
 p {
     color: darkseagreen; text-shadow: 5px 2px 4px black; font-style: italic;
