@@ -172,7 +172,7 @@ ul.circle {
 ul.square {
     list-style-type: square;
 }
-table {  border-collapse: separate; border-spacing: 20px 40px;border-collapse : separate; empty-cells: hide; width: 100%;border: 1px solid gray;
+table {  border-collapse: collapse/*separate*/; border-spacing: 20px 40px; empty-cells: hide; width: 100%;border: 1px solid gray; color: red;
 }
 caption {
     caption-side: top;
