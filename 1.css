@@ -157,7 +157,7 @@ body {
     background-color: greenyellow;background-image: url("40.jpg");
 }
 p {
-    color: ghostwhite; text-shadow: 5px 2px 4px black; font-style: italic;
+    color: ghostwhite; text-shadow: 5px 2px 4px yellow; font-style: italic;
 }
 p.uro {
     padding: 30px;
