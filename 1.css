@@ -208,8 +208,8 @@ p.link {
     text-shadow: 5px 2px 4px darkred;
 }
 img {
-    padding-left: 120px; float: none; width: 120px; margin-right: 10px;
+    float: right; width: 120px; margin-right: 10px;
 }
 p.float {
-    padding-left: 120px; width: 120px; float: none; text-align: justify;
+    width: 120px; float: 10px;
 }
