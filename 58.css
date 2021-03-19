@@ -48,5 +48,14 @@ p.radius {
     border-radius: 100px; background-color: green; color: white; width: 200px; height: 200px;
 }
 div {
-    width: 300px; height: 100px; background-color: #9ACD32; box-shadow: 10px 10px #888888;
+    width: 300px; height: 100px; background-color: #9400D3; box-shadow: 5px 10px #888888;
+}
+h2 {
+    width: 300px; height: 100px; background-color: #FF00FF; box-shadow: 10px 10px 5px 5px #DCDCDC;
+}
+h3 {
+    width: 300px; height: 100px; background-color: #9ACD32; box-shadow: -20px -20px 10px -5px;
+}
+h4 {
+    width: 300px; height: 100px; background-color: #20B2AA; box-shadow: 10px 10px 10px 5px #778899;
 }
