@@ -214,9 +214,3 @@ img {
 div.over {
     width: 150px; height: 150px; background-color: darkred; float: left; overflow: scroll;
 }
-div.blue {
-    background-color: blue; margin-bottom: 15px; width: 120px; height: 120px; color: #fff;
-}
-div.red {
-    background-color: red; position: relative; width: 120px; height: 120px; color: #fff; margin-top: -50px; margin-left: 50px;
-}
