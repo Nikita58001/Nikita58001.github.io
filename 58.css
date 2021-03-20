@@ -151,6 +151,7 @@ h1 {
     width: 200px;
     color: #FFF;
     background: -webkit-radial-gradient(green,yellow,blue);
+    float: left;
 }
 #Circle {
     height: 150px;
