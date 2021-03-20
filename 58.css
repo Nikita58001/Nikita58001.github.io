@@ -114,8 +114,19 @@ h1 {
     color: #589432;
 }
 #line {
-    float: left; width: 300px; height: 100px; margin: 4px; color: #fff; background: -webkit-linear-gradient(blue,yellow,green,pink,white);
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: #fff;
+    background: -webkit-linear-gradient(blue, yellow, green, pink, white);
 }
-#colors {
-    float: left; width: 300px; height: 100px; margin: 4px; color: #fff; background: -moz-linear-gradient(left,aqua,greenyellow,darkred);
+#bottomtotop {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: #fff;
+    background: -webkit-linear-gradient(bottom,aqua,greenyellow,darkred);
+
 }
