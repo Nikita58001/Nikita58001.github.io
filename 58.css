@@ -194,3 +194,11 @@ h1 {
     background-clip: content-box;
     float: left;
 }
+#url {
+    border: 2px dotted black;
+    padding: 20px;
+    background: lightpink;
+    background-clip: content-box;
+    float: left;
+    background-image: url("44.gif");
+}
