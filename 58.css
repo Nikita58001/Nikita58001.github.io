@@ -116,3 +116,6 @@ h1 {
 #line {
     float: left; width: 300px; height: 100px; margin: 4px; color: #fff; background: -webkit-linear-gradient(blue,yellow,green,pink,white);
 }
+#colors {
+    background: -moz-linear-gradient(blue 20%,yellow 30%, green 85%);
+}
