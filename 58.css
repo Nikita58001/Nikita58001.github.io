@@ -109,7 +109,7 @@ h4 {
     width: 300px; height: 100px; background-color: #20B2AA; box-shadow: 10px 10px 10px 5px #778899;
 }
 body {
-    background: url("40.jpg"); color: white;
+    background: white; color: white;
 }
 nav {
     padding: 50px 0; min-width: 500px;
