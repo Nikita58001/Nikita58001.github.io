@@ -128,5 +128,12 @@ h1 {
     margin: 4px;
     color: #fff;
     background: -webkit-linear-gradient(bottom,aqua,greenyellow,darkred);
-
+}
+#linear {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: #fff;
+    background: -webkit-repeating-linear-gradient(blue,green 20px);
 }
