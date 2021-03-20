@@ -169,4 +169,5 @@ h1 {
     border: 1px;
     background: url("44.gif") no-repeat 50% 50%;
     background-size: 100px 100px;
+    float: left;
 }
