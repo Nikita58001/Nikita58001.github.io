@@ -184,7 +184,7 @@ h1 {
     border: 2px dotted black;
     padding: 20px;
     background: lightblue;
-    background-clip: content-box;
+    background-clip: padding-box;
     float: left;
 }
 #first {
