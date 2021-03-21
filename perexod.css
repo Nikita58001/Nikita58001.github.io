@@ -52,3 +52,6 @@ div.empty-div {
 div.green-div {
     padding: 50px;position: relative;background-color: #8bc34a; border: 1px solid white; transform: rotate(15deg); transform-origin: 25% 75%;
 }
+div.translate {
+    width: 200px; height: 100px; padding: 50px; position: absolute;background-color: #32cd32; transform: translate(100px, 50px);
+}
