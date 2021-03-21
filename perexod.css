@@ -32,8 +32,6 @@ div {
     height: 50px;
     background: #32cd32;
     transition: width 3s;
-    padding: 50px;
-    position: absolute;
 }
 div:hover {
     width: 250px;
