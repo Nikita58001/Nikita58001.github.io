@@ -58,3 +58,6 @@ div.translate {
 div.skew {
     width: 300px; height: 100px; padding: 25px; position: center;background-color: #FF4D4D; transform: skew(30deg); float: top;
 }
+body {
+    color: #002480;
+}
