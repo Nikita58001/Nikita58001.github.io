@@ -75,7 +75,7 @@ div.second {
 div.pov {
     width: 200px; height: 100px; background-color: firebrick;transform: rotate(45deg) translate(100px);
 }
-@keyframes example {
+@keyframes pov {
     0% {background-color: red}
     50% {background-color: yellow}
     70% {background-color: blue}
