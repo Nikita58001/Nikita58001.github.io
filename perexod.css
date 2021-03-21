@@ -73,5 +73,5 @@ div.second {
     margin: 60px; width: 200px;height: 100px;background-color: maroon; transform: scale(1.5, 1.5); color: white;
 }
 div.pov {
-    width: 200px; height: 100px; background-color: #20B2AA;transform: rotate(45deg) translate(100px);
+    width: 200px; height: 100px; background-color: firebrick;transform: rotate(45deg) translate(100px);
 }
