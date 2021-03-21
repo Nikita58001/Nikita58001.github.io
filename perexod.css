@@ -50,5 +50,5 @@ div.empty-div {
     position: relative; width: 100px; height: 100px;margin: 30px; padding: 10px; border: 1px solid black;
 }
 div.green-div {
-    padding: 50px;position: absolute;background-color: #8bc34a; border: 1px solid white; transform: rotate(15deg); transform-origin: 25% 75%;
+    padding: 50px;position: relative;background-color: #8bc34a; border: 1px solid white; transform: rotate(15deg); transform-origin: 25% 75%;
 }
