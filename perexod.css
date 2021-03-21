@@ -56,5 +56,5 @@ div.translate {
     width: 200px; height: 100px; padding: 50px; position: absolute;background-color: #32cd32; transform: translate(100px, 50px);
 }
 div.skew {
-    width: 100px; height: 100px; padding: 25px; position: center;background-color: #FF4D4D; transform: skew(30deg);
+    width: 100px; height: 100px; padding: 25px; position: center;background-color: #FF4D4D; transform: skew(30deg); float: bottom;
 }
