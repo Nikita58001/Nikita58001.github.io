@@ -82,6 +82,18 @@ div.pov {
     100% {background-color: green}
 
 } */
+/* Анимация позволяет элементу постепенно измениться с одного стиля к другому.Вы можете изменять множество CSS свойств
+столько раз сколько вы хотите.Ключевые кадры содержат стили которые будут иметь элементы в определённое время.
+При определении стилей CSS внутри правила @keyframes,анимация постепенно измениться от текущего стиля к новому стилю
+в определённое время.Чтобы получить работающую анимацию,вам необходимо связать анимацию с элементом.
+ */
+/* В качестве альтернативы использования процентов,вы можете использовать ключевые слова from и to,где: from: это значение
+ничинающееся с 0%. to это значение заканчивающееся на 100%
+ */
+
+
+
+
 div{
     background-color: red;width: 30px;height: 60px;animation-iteration-count: infinite;animation-timing-function: linear;
     position: fixed;box-shadow: 2px 2px 5px grey;
@@ -127,4 +139,9 @@ span#id1{
 }
 span#id2{
     top: 320px;position: relative;font-family: cooper;font-size: 15px;text-shadow: 5px 5px 5px grey;
+}
+div.bar8{
+    width: 100px;height: 100px;background-color: red;animation-name: colorchange;animation-duration: 1s;
+}
+@keyframes colorchange {0% {background-color: red;} 50%{background-color: green;} 100%{background-color: blue;}
 }
