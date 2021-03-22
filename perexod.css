@@ -90,6 +90,9 @@ div.pov {
 /* В качестве альтернативы использования процентов,вы можете использовать ключевые слова from и to,где: from: это значение
 ничинающееся с 0%. to это значение заканчивающееся на 100%
  */
+/* Если свойство animation-duration не было определено,то анимация не будет воизпроизведена,потому что значением по
+по умолчанию длительности является 0
+ */
 
 
 
@@ -141,7 +144,7 @@ span#id2{
     top: 320px;position: relative;font-family: cooper;font-size: 15px;text-shadow: 5px 5px 5px grey;
 }
 div.bar8{
-    width: 100px;height: 100px;background-color: red;animation-name: colorchange;animation-duration: 1s;
+    width: 100px;height: 100px;background-color: red;animation-name: colorchange;animation-duration: 5s;
 }
-@keyframes colorchange {0% {background-color: red;} 50%{background-color: green;} 100%{background-color: blue;}
+@keyframes colorchange {0% {background-color: red;} 50%{background-color: green;} 100%{background-color: blue;} from{width: 0px;} to{width: 100px;}
 }
