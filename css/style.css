@@ -729,7 +729,7 @@ b i:last-child {
     display: block;
 }
 
-.portfolio_item .portfolio_item_hover {
+/*.portfolio_item .portfolio_item_hover { 
     position: absolute;
     top: 0px;
     left: 0px;
@@ -741,7 +741,7 @@ b i:last-child {
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
+} */
 
 .portfolio_item .portfolio_item_hover .item_info {
     text-align: center;
