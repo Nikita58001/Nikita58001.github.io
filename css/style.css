@@ -291,7 +291,7 @@ h5 {
 
 .box-primary-nav-trigger .box-menu-icon.is-clicked::before,
 .box-primary-nav-trigger .box-menu-icon.is-clicked::after {
-    background-color: 393939;
+    background-color: #393939;
 }
 
 .box-primary-nav-trigger .box-menu-icon.is-clicked::before {
