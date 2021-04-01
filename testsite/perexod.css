@@ -1,0 +1,156 @@
+/* переходы CSS3 позволяют нам изменить одно значение свойства на другое в течение заданной продолжительности.
+transition-property- указывает свойство,к которому будет применён переход. transition-duration- определяет продолжительность,
+в течение которой произойдёт переход. trabsition-timing-function-определяет как будет изменяться темп перехода во время
+его продолжительности.transition-delay-определяет задержку( в секундах) для эффекта перехода. Эффект перехода может быть
+применён к широкому множеству свойств CSS, включая background-color,width, height, opacity, и многие другие.
+ */
+/* Свойство transition-timing-fuction определяет насколько быстро должно изменяться значение стилевого свойства,для
+которого применяется эффект перехода.Может принимать следующие значения:
+ease - анимация начинается медленно,затем  быстро ускоряется
+ease-in- начинатеся медленно, затем ускоряется и останавливается резко
+ease-out- начинается быстро, но замедляется до остановки
+ease-in-out-похоже на ease,но с более тонким ускорением и замедлением.
+linear- постоянная скорость прохождения анимации часто применяется для изменений цвета и прозрачности.
+Наконец у нас есть cubic-bezier(), что позволяет нам определять ваши собственные значения в функции cubic-bezier.Возможными
+значениями являются числа от 0 до 1.
+ */
+/* трансформация в CSS3 позволяет вам транслировать,вращать, масштабировать и искажать элементы.Трансформация это эффект,
+который позволяет вам изменять размер,форму и положение элемента на веб странице.CSS3 поддерживает 2D и 3D трансформации
+
+ */
+/* Свойство transform-origin позволяет вам изменять позицию трансформируемого элемента.Значением по умолчанию является
+50% 50% что соответствует центру элемента. 0 0 является таким же значение как и top left, а 100% 100% это то же самое
+что и bottom right. Свойство tranform-origin должно использоваться вместе со свойством transform
+ */
+/* Метож scale() увеличивает или уменьшает размер элемента, в соответсвие с заданными параметрами ширины и высоты.
+1 соответсвует оригинальному размеру,2 соответсвует удвоенному оригинальному размеру и так далее.
+ */
+/* Несколько трансформаций могут быть выполнены одновременно.Вращение и масштабирование элемента одновременно является
+примером этому.Применить множество трансформаций к одному элементу очень просто: просто разделите их с помощью пробелов.
+ */
+
+
+
+
+/* div {
+    width: 50px;
+    height: 50px;
+    background: #32cd32;
+    transition: width 3s;
+}
+div:hover {
+    width: 250px;
+}
+#transform {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32cd32;
+    transform: rotate(10deg);
+}
+div.positive {
+    width: 200px; height: 100px; margin-top: 30px; background-color: #32cd32; transform: rotate(-10deg);
+}
+div.empty-div {
+    position: relative; width: 100px; height: 100px;margin: 30px; padding: 10px; border: 1px solid black;
+}
+div.green-div {
+    padding: 50px;position: relative;background-color: #8bc34a; border: 1px solid white; transform: rotate(15deg); transform-origin: 25% 75%;
+}
+div.translate {
+    width: 200px; height: 100px; padding: 50px; position: absolute;background-color: #32cd32; transform: translate(100px, 50px);
+}
+div.skew {
+    width: 300px; height: 100px; padding: 25px; position: center;background-color: #FF4D4D; transform: skew(30deg); float: top;
+}
+body {
+    background-color: darkturquoise;
+}
+div.first {
+    width: 200px; height: 100px; background-color: maroon; transform: scale(0.7, 0.7);color: white;
+}
+div.second {
+    margin: 60px; width: 200px;height: 100px;background-color: maroon; transform: scale(1.5, 1.5); color: white;
+}
+div.pov {
+    width: 200px; height: 100px; background-color: firebrick;transform: rotate(45deg) translate(100px);
+}
+@keyframes pov {
+    0% {background-color: red}
+    50% {background-color: yellow}
+    70% {background-color: blue}
+    100% {background-color: green}
+
+} */
+/* Анимация позволяет элементу постепенно измениться с одного стиля к другому.Вы можете изменять множество CSS свойств
+столько раз сколько вы хотите.Ключевые кадры содержат стили которые будут иметь элементы в определённое время.
+При определении стилей CSS внутри правила @keyframes,анимация постепенно измениться от текущего стиля к новому стилю
+в определённое время.Чтобы получить работающую анимацию,вам необходимо связать анимацию с элементом.
+ */
+/* В качестве альтернативы использования процентов,вы можете использовать ключевые слова from и to,где: from: это значение
+ничинающееся с 0%. to это значение заканчивающееся на 100%
+ */
+/* Если свойство animation-duration не было определено,то анимация не будет воизпроизведена,потому что значением по
+по умолчанию длительности является 0
+Свойство animation-iteration-count определяет количество повторов анимации. Например вы можете установить чтобы анимация
+выполнилась 5 раз: animation-iteration-count:5s; чтобы анимация повторялась бесконечно просто используйте значение infinite.
+Animation-direction указывает как ключевой кадр должен быть применён.Значения могут быть: normal-значение по умолчанию,
+что значит, что оно выполняется от0% до 100%. reverse-анимация выполняется в обратном направлении от 100% до 0%
+alternate-анимация выполняется вперёд,затем обратно,затем снова вперед.alternate reverse-анимация сначала выполняется в
+обратном направлении,затем вперед,затем снова в обратном направление.
+ */
+
+
+
+
+div{
+    background-color: red;width: 30px;height: 60px;animation-iteration-count: infinite;animation-timing-function: linear;
+    position: fixed;box-shadow: 2px 2px 5px grey;
+}
+div.bar1{
+    background-color: red;animation: ex1 1.9s linear infinite;
+    top: 200px;left: 60px;
+}
+div.bar2{
+    background-color: orange;animation: ex2 2.1s linear infinite; top: 200px;left: 95px;
+}
+div.bar3{
+    background-color: yellow;animation: ex3 2.3s linear infinite; top: 200px;left: 130px;
+}
+div.bar4{
+    background-color: limegreen;animation: ex4 1.4s linear infinite; top: 200px;left: 165px;
+}
+div.bar5{
+    background-color: skyblue;animation: ex5 1.7s linear infinite;top: 200px;left: 200px;
+}
+div.bar6{
+    background-color: blue;animation: ex6 2.0s linear infinite;top: 200px;left: 235px;
+}
+div.bar7{
+    background-color: purple;animation: ex7 1.8s linear infinite;top: 200px;left: 270px;
+}
+@keyframes ex1{ 50%{ background-color:purple;top: 100px;height:160px;}
+}
+@keyframes ex2{50%{background-color: blue;top: 50px;height: 210px;}
+}
+@keyframes ex3{50%{background-color: skyblue;top: 10px;height: 250px;}
+}
+@keyframes ex4{50%{background-color: green;top: 100px;height: 160px;}
+}
+@keyframes ex5{50%{background-color: yellow;top: 50px;height: 210px;}
+}
+@keyframes ex6{50%{background-color: orange;top: 150px;height: 110px;}
+}
+@keyframes ex7{50%{background-color: red;top: 50px;height: 210px;}
+}
+span#id1{
+    top: 300px;position: relative;font-family: cooper;font-size: 20px;text-shadow: 5px 5px 5px grey;
+}
+span#id2{
+    top: 320px;position: relative;font-family: cooper;font-size: 15px;text-shadow: 5px 5px 5px grey;
+}
+div.bar8{
+    width: 100px;height: 100px;background-color: red;animation-name: colorchange;animation-duration: 5s;
+}
+@keyframes colorchange {0% {background-color: red;} 50%{background-color: green;} 100%{background-color: blue;} from{width: 0px;} to{width: 100px;}
+}
